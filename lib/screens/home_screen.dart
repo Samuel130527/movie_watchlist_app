@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../data/movies_data.dart';
 import 'details_screen.dart';
+import 'watchlist_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,20 @@ class HomeScreen extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.bookmark),
+            tooltip: 'View Watchlist',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const WatchlistScreen(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
 
       body: ListView.builder(
