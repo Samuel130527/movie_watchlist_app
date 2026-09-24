@@ -3,7 +3,7 @@ import '../models/movie.dart';
 final List<Movie> sampleMovies = [
   Movie(
     title: 'Inception',
-    posterPath: 'assets/images/inception.jpg',
+    posterPath: 'assets/images/inception.jpeg',
     cast: [
       'Leonardo DiCaprio',
       'Joseph Gordon-Levitt',
@@ -15,7 +15,7 @@ final List<Movie> sampleMovies = [
 
   Movie(
     title: 'The Matrix',
-    posterPath: 'assets/images/matrix.jpg',
+    posterPath: 'assets/images/matrix.jpeg',
     cast: [
       'Keanu Reeves',
       'Laurence Fishburne',
@@ -27,7 +27,7 @@ final List<Movie> sampleMovies = [
 
   Movie(
     title: 'Interstellar',
-    posterPath: 'assets/images/interstellar.jpg',
+    posterPath: 'assets/images/interstellar.jpeg',
     cast: [
       'Matthew McConaughey',
       'Anne Hathaway',
@@ -39,7 +39,7 @@ final List<Movie> sampleMovies = [
 
   Movie(
     title: 'Avengers: Endgame',
-    posterPath: 'assets/images/endgame.jpg',
+    posterPath: 'assets/images/endgame.jpeg',
     cast: [
       'Robert Downey Jr.',
       'Chris Evans',
@@ -51,7 +51,7 @@ final List<Movie> sampleMovies = [
 
   Movie(
     title: 'Spider-Man: No Way Home',
-    posterPath: 'assets/images/spiderman.jpg',
+    posterPath: 'assets/images/spiderman.jpeg',
     cast: [
       'Tom Holland',
       'Zendaya',
